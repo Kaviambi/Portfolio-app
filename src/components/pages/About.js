@@ -14,13 +14,11 @@ export default function About() {
       />
    </div>
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        I am a full stack developer and currently studying Full stack bootcamp in UTSA. In another few weeks I am going to complete. I did my Bachleor of Computer Science in India. And I learned 
+        new skills in JavaScript, CSS, React.js and responsive web design. 
       </p>
+      <p>My strength in front-end technologies including JavaScript, CSS3 and HTML5 and third party libraries such as React Js, JQuery</p>
+      <p>And I have a knowledge of Database in MongoDB, MySql.</p>
     </div>
     </div>
   );

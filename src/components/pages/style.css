@@ -4,26 +4,32 @@
 html
 body{
     min-height: 100%;
+    background-image: url('./images/background');
+    background-size: cover;
 }
 a:hover{
-   
+   color:green;
     font-weight: bold;  
  } 
+
+ 
 form{
     width:40%;
 }
 .footer{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content:center;
     position: sticky;
-    padding: 20px;
+    padding: 5px;
+    background-image: url('./images/img.jfif');
  
 }
 .logo{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
+    padding:5px;
 }
 
 .container{
@@ -42,6 +48,7 @@ form{
 }
 .cardhover:hover{
     background-color:green;
+    
     cursor: pointer;
 }
 
@@ -51,10 +58,19 @@ form{
     cursor: pointer;
 }
 
-.alignment{
-   float: right;
-}
-
-.alignleft{
+.left{
     float: left;
 }
+
+.right{
+    float: right;
+}
+
+h5{
+    color:black;
+}
+
+.wrap{
+   margin: 3%;
+}
+

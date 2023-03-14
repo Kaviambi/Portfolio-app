@@ -1,26 +1,241 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
+import quiz from '../pages/images/quiz.JPG';
+import password from './images/password.JPG'
+import './style.css';
+import Githublogo from "./images/github.png";
+import repo from './images/repo.png';
 
 export default function Home() {
   return (
-    <React.Fragment>
-    <div style={{maxHeight: '80rem'}}>
-    <div style={{padding: "2rem"}} className="my-5 container d-flex justify-content-center ">
-      
-      <p>
-      <h1>Home Page</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+
+    <div className='container'>
+      <div className='row'>
+        {/* Quiz Challenge */}
+        <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '2rem' }}>
+            <Card.Img variant="top" src={quiz} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Quiz Challenge</h3></Card.Title>
+              <Card.Title><div className='alignleft'>
+                <a href="https://github.com/Kaviambi"
+                  target='_blank'
+                  rel="noreferrer"
+                >
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg"
+                    path="https://github.com/Kaviambi">
+                  </img>
+
+                </a></div>
+                <div className='alignment'>
+                  <a href="https://github.com/Kaviambi"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg"
+                      path="https://github.com/Kaviambi"></img>
+
+                  </a></div>
+              </Card.Title>
+
+
+            </Card.ImgOverlay>
+          </Card>
+
+
+        </div>
+{/* Password Generator */}
+        <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '2rem' }}>
+            <Card.Img variant="top" src={password} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Password Generator</h3></Card.Title>
+              <Card.Title><div className='alignleft'>
+                <a href="https://github.com/Kaviambi"
+                  target='_blank'
+                  rel="noreferrer"
+                >
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg"
+                    path="https://github.com/Kaviambi">
+                  </img>
+
+                </a></div>
+                <div className='alignment'>
+                  <a href="https://github.com/Kaviambi"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg"
+                      path="https://github.com/Kaviambi"></img>
+
+                  </a></div>
+              </Card.Title>
+
+
+            </Card.ImgOverlay>
+          </Card>
+
+
+        </div>
+        <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '2rem' }}>
+            <Card.Img variant="top" src={quiz} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Quiz Challenge</h3></Card.Title>
+              <Card.Title><div className='alignleft'>
+                <a href="https://github.com/Kaviambi"
+                  target='_blank'
+                  rel="noreferrer"
+                >
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg"
+                    path="https://github.com/Kaviambi">
+                  </img>
+
+                </a></div>
+                <div className='alignment'>
+                  <a href="https://github.com/Kaviambi"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg"
+                      path="https://github.com/Kaviambi"></img>
+
+                  </a></div>
+              </Card.Title>
+
+
+            </Card.ImgOverlay>
+          </Card>
+
+
+        </div>
+
+        <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '2rem' }}>
+            <Card.Img variant="top" src={quiz} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Quiz Challenge</h3></Card.Title>
+              <Card.Title><div className='alignleft'>
+                <a href="https://github.com/Kaviambi"
+                  target='_blank'
+                  rel="noreferrer"
+                >
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg"
+                    path="https://github.com/Kaviambi">
+                  </img>
+
+                </a></div>
+                <div className='alignment'>
+                  <a href="https://github.com/Kaviambi"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg"
+                      path="https://github.com/Kaviambi"></img>
+
+                  </a></div>
+              </Card.Title>
+
+
+            </Card.ImgOverlay>
+          </Card>
+
+
+        </div>
+
+        <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '2rem' }}>
+            <Card.Img variant="top" src={quiz} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Quiz Challenge</h3></Card.Title>
+              <Card.Title><div className='alignleft'>
+                <a href="https://github.com/Kaviambi"
+                  target='_blank'
+                  rel="noreferrer"
+                >
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg"
+                    path="https://github.com/Kaviambi">
+                  </img>
+
+                </a></div>
+                <div className='alignment'>
+                  <a href="https://github.com/Kaviambi"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg"
+                      path="https://github.com/Kaviambi"></img>
+
+                  </a></div>
+              </Card.Title>
+
+
+            </Card.ImgOverlay>
+          </Card>
+
+
+        </div>
+
+        <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '2rem' }}>
+            <Card.Img variant="top" src={quiz} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Quiz Challenge</h3></Card.Title>
+              <Card.Title><div className='alignleft'>
+                <a href="https://github.com/Kaviambi"
+                  target='_blank'
+                  rel="noreferrer"
+                >
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg"
+                    path="https://github.com/Kaviambi">
+                  </img>
+
+                </a></div>
+                <div className='alignment'>
+                  <a href="https://github.com/Kaviambi"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg"
+                      path="https://github.com/Kaviambi"></img>
+
+                  </a></div>
+              </Card.Title>
+
+
+            </Card.ImgOverlay>
+          </Card>
+
+
+        </div>
+
+
+      </div>
     </div>
-    </div>
-    </React.Fragment>
+
   );
 }

@@ -6,9 +6,9 @@ body{
     min-height: 100%;
 }
 a:hover{
-    background-color:green; /*will change background-color of element on hover */
-    font-weight: bold; /*will change color of text within the element on hover */
-}
+   
+    font-weight: bold;  
+ } 
 form{
     width:40%;
 }
@@ -29,4 +29,32 @@ form{
 .container{
     max-height: 100%;
 
+}
+
+.cardhover{
+    text-align: center;   
+}
+
+.cardhoverimg{
+    height: 50px;
+    width:50px;
+  
+}
+.cardhover:hover{
+    background-color:green;
+    cursor: pointer;
+}
+
+.cardhoverimg:hover{
+    transform: scale(1.5);
+ 
+    cursor: pointer;
+}
+
+.alignment{
+   float: right;
+}
+
+.alignleft{
+    float: left;
 }

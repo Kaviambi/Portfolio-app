@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio-app/static/css/main.302a08d6.css",
+    "main.js": "/Portfolio-app/static/js/main.f9b86e87.js",
+    "static/media/quiz.jpg": "/Portfolio-app/static/media/quiz.5c5b4f9966ab2e4b604b.jpg",
+    "static/media/techblog.png": "/Portfolio-app/static/media/techblog.1768b1ebc150a54e0a6d.png",
+    "static/media/planner.png": "/Portfolio-app/static/media/planner.1ec5e204d19ca03dbb8d.png",
+    "static/media/img.jfif": "/Portfolio-app/static/media/img.302016fb314d5df05106.jfif",
+    "static/media/note.png": "/Portfolio-app/static/media/note.f13568437d1580c67fcb.png",
+    "static/media/password.JPG": "/Portfolio-app/static/media/password.191c0b4664caadc45222.JPG",
+    "static/media/socialapi.png": "/Portfolio-app/static/media/socialapi.78ff8643ba82e7d2dd68.png",
+    "static/media/Kavi_Resume.docx": "/Portfolio-app/static/media/Kavi_Resume.5e725a15115aca3545af.docx",
+    "static/media/stack.png": "/Portfolio-app/static/media/stack.1fdaaa6247914e51d49b.png",
+    "static/media/background": "/Portfolio-app/static/media/background.dfce7822948c68c3fa37",
+    "index.html": "/Portfolio-app/index.html",
+    "main.302a08d6.css.map": "/Portfolio-app/static/css/main.302a08d6.css.map",
+    "main.f9b86e87.js.map": "/Portfolio-app/static/js/main.f9b86e87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.302a08d6.css",
+    "static/js/main.f9b86e87.js"
+  ]
+}

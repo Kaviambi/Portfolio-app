@@ -73,4 +73,6 @@ h5{
 .wrap{
    margin: 3%;
 }
-
+.list{
+    list-style-type: circle;
+}

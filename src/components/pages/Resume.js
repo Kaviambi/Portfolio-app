@@ -1,22 +1,35 @@
 import React from 'react';
-
+import './style.css';
+import resume from './file/Kavi_Resume.docx';
 export default function Resume() {
   return (
-    <div style={{padding: "2rem"}} className="my-5 container d-flex justify-content-center">
-  
-      <p>
-      <h1>Resume Page</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <div className='container'>
+    <div style={{padding: "2rem", height:'100%'}}>
+      <h1>Resume</h1>
+     <p> Download my <a href={resume}>Resume</a></p>
+     <div>
+      <h5>Front-end Proficiencies</h5>
+      <ol className='list'>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>responsive design</li>
+        <li>React</li>
+        <li>Bootstrap</li>
+      </ol>
+      <br></br>
+      <h5>Back-end Proficiencies</h5>
+      <ol className='list'>
+        <li>API</li>
+        <li>NodeJS</li>
+        <li>REST</li>
+        <li>MVC</li>
+        <li>Progressive Web Applications(PWA)</li>
+      </ol>
+     </div>
     </div>
+    </div>
+
   );
 }

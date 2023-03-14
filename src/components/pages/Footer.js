@@ -1,6 +1,7 @@
 import React from "react";
 import Github from "./images/github.png";
 import Linkedin from "./images/linkedin.png";
+import stack from "./images/stack.png";
 
 const Footer = () => {
     return (
@@ -14,7 +15,7 @@ const Footer = () => {
               className="logo"></img>
             </a>
 
-            <a href="https://github.com/Kaviambi"
+            <a href="https://www.linkedin.com/in/kavitha-ambigapathi-03468078/"
             target='_blank'
             rel="noreferrer"
             >
@@ -23,7 +24,14 @@ const Footer = () => {
               className="logo"></img>
             </a>
 
-
+            <a href="https://stackoverflow.com/"
+            target='_blank'
+            rel="noreferrer"
+            >
+              <img src={stack}
+              alt="githublogo"
+              className="logo"></img>
+            </a>
         </footer>
     );
 };

@@ -6,6 +6,7 @@ import techblog from './images/techblog.png';
 import api from './images/socialapi.png';
 import note from './images/note.png';
 import planner from './images/planner.png';
+import project3 from './images/HomeScreen.JPG';
 import './style.css';
 import Githublogo from "./images/github.png";
 import repo from './images/repo.png';
@@ -229,6 +230,44 @@ export default function Home() {
                       <h5 className='right'>Deployed Page</h5>
                   </a>
                   </div>
+                  </Card>
+                  </Card>
+                  </div>
+
+                  {/* Project 3 */}
+                  <div className='col-md-6'>
+          <Card style={{ width: '25rem', margin: '1rem' }}>
+            <Card.Img variant="top" src={project3} />
+            <Card.ImgOverlay>
+              <Card.Title className='cardhover'><h3>Fitness Meal Planner </h3></Card.Title>
+              
+
+
+            </Card.ImgOverlay>
+            <Card>
+              <div className='wrap'>
+                <a href="https://github.com/Dom231/Fitness_Meal-Plan.git"
+                  target='_blank'
+                  rel="noreferrer"
+                > 
+                  <img src={Githublogo}
+                    alt="githublogo"
+                    className="cardhoverimg left"
+                    path="https://github.com/Dom231/Fitness_Meal-Plan.git">
+                  </img> <h5 className='left'>GitHub Repo</h5>
+                </a>
+               
+                  <a href="https://github.com/Dom231/Fitness_Meal-Plan.git"
+                    target='_blank'
+                    rel="noreferrer"
+                  >
+                    <img src={repo}
+                      alt="githublogo"
+                      className="cardhoverimg right"
+                      path="https://github.com/Dom231/Fitness_Meal-Plan.git"></img>
+                      <h5 className='right'>Deployed Page</h5>
+                  </a>
+                  </div>
               </Card>
           </Card>
 
@@ -236,8 +275,7 @@ export default function Home() {
         </div>
 
 
-      </div>
-    </div>
+    </div></div>
 
   );
 }
